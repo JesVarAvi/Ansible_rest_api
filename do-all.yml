@@ -1,0 +1,5 @@
+---
+- include_task: config.yml
+- include_task: instal.yml
+- include_task: cluster-master.yml
+- include_task: launch.yml

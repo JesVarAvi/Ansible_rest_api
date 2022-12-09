@@ -1,0 +1,9 @@
+---
+- include_tasks: redis-master.yaml
+- include_tasks: redis-master-service.yaml
+- include_tasks: redis-slave.yaml
+- include_tasks: redis-slave-service.yaml
+- include_tasks: frontend.yaml
+- include_tasks: frontend-service.yaml
+- include_tasks: volumen.yaml
+- include_tasks: ingress.yaml
